@@ -17,7 +17,7 @@ const LoginForm = () => {
     try {
       await firebase.auth().signInWithEmailAndPassword(formData.email, formData.password);
       setMessage('Logged in successfully!');
-      navigate('/');
+      navigate('/apollo-coffee-web-site');
     } catch (error) {
       setMessage("Please check the email and password.");
     }

@@ -41,6 +41,7 @@ const Home = () => {
           ))}
         </List>
       </Paper>
+      <Typography variant="h5" sx={{marginTop: "50px"}}>To add a new coffee type, create a new account with type "Worker", then a new form will be available on navigation bar. To give a new order, create a new account or login to an existing one.</Typography>
     </Container>
   );
 };
