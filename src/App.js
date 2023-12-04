@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <Navbar></Navbar>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/apollo-coffee-web-site" element={<Home />} />
           <Route path="/signup" element={<SignupForm />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/order" element={<OrderForm />} />

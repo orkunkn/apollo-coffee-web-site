@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <Container maxWidth="sm" style={{ marginTop: 20 }}>
       <Paper style={{ padding: 20 }}>
-        <Typography variant="h5">Recent Orders</Typography>
+        <Typography variant="h5">Recent 10 Orders</Typography>
         <List>
           {recentOrders.map((order, index) => (
             <ListItem key={index}>

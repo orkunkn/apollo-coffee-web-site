@@ -27,7 +27,7 @@ const Navbar = () => {
                             textDecoration: "none",
                             boxShadow: "none",
                             color: "white"
-                        }} to="/">Home</Link>
+                        }} to="/apollo-coffee-web-site">Home</Link>
                     </Typography>
                     {!user && <Typography variant="h6" style={{ flexGrow: 1 }}>
                         <Link style={{
